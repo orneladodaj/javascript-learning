@@ -5,4 +5,8 @@ Everytime a toy is made it inherits things from the factory
 
 Every object in javascript gets some extra abilities because it follows a blueprint called Object.prototype
 We can change the default abilities anytime we want
-test
+
+Classes work as templates for an object type
+class followed by a capitalized name {}
+class Name{}
+const Name = class{}
