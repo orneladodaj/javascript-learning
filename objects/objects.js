@@ -41,5 +41,38 @@ const house = {
     colour : "white",
     numberOfRooms : 5,
     area : 100,
-    
+
+}
+
+class Person{
+    constructor(personName,
+        surname,
+        age,
+        height,
+        weight)
+
+    {
+        this.personName = personName;
+        this.surname = surname;
+        this.age = age;
+        this.height = height;
+        this.weight = weight; 
+    }
+}
+
+const leo = new Person("Leo","Dodaj",6,70,10);
+console.log(leo); 
+
+function Backpack (
+    name,
+    volume,
+    colour,
+    pocketNum
+)
+{
+    this.name = name;
+    this.volume = volume;
+    this.colour = colour;
+    this.pocketNum = pocketNum;
+
 }

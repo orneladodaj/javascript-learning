@@ -10,3 +10,6 @@ Classes work as templates for an object type
 class followed by a capitalized name {}
 class Name{}
 const Name = class{}
+
+The constructor defines parameters
+constructor{}
